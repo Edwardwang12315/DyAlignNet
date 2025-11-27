@@ -74,8 +74,8 @@ def convert_coco_to_widerface(coco_labels_dir, image_base_dir, output_file):
 # 使用示例
 if __name__ == "__main__":
     # 设置路径
-    coco_labels_dir = "../../dataset/coco/labels/val2025"  # COCO标签文件目录
-    image_base_dir = "../../dataset/coco/images/val2025"   # 图片基础目录
+    coco_labels_dir = "/home/share/lowdetect/dataset/coco_onlyVal/labels/val2025"  # COCO标签文件目录
+    image_base_dir = "/home/share/lowdetect/dataset/coco_onlyVal/images/val2025"   # 图片基础目录
     output_file = "coco2widerface.txt"     # 输出文件
     
     # 执行转换
