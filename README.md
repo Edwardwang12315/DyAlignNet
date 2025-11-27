@@ -1,4 +1,9 @@
+# v3.1
+
+完成github备份 git@github.com:Edwardwang12315/DyAlignNet.git
+
 # v3.0
+
 - result中是训练280个epoch的测试结果
   - epoch:279 iter:150300 Loss:22.5622
   - test epoch:279 Loss:6.6709
@@ -50,7 +55,7 @@ python main.py --no-animation --no-plot --quiet
     ·
     <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>
   </p>
-  
+
 ## **上传记录**
 - 7.21
 
