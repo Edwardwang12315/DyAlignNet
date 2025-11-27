@@ -32,7 +32,7 @@ parser = argparse.ArgumentParser(
 	description='DSFD face Detector Training With Pytorch')
 train_set = parser.add_mutually_exclusive_group()
 parser.add_argument('--batch_size',
-					default=, type=int, # server上为8 我的电脑上2,仅训练ref时为12
+					default=1, type=int, # server上为8 我的电脑上2,仅训练ref时为12
 					help='Batch size for training')
 parser.add_argument('--model',
 					default='dark', type=str,
@@ -63,7 +63,7 @@ parser.add_argument('--multigpu',
 					default=True, type=bool,
 					help='Use mutil Gpu training')
 parser.add_argument('--save_folder',
-					default='../../model/forDAINet/',
+					default='./model/',
 					help='Directory for saving checkpoint models')
 parser.add_argument('--local_rank',
 					type=int,

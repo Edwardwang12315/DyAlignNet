@@ -44,35 +44,6 @@ tmux窗口下，ctrl + b 再加 [ 可以启动复制模式,鼠标任意滚动
 启动mAP计算
 python main.py --no-animation --no-plot --quiet
 ```
-
-<p align="center">
-  <h1 align="center">Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation
-</h1>
-  <p align="center">
-    <a href="https://zpdu.github.io/">Zhipeng Du</a>
-    ·
-    <a href="https://sites.google.com/site/miaojingshi/home">Miaojing Shi</a>
-    ·
-    <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>
-  </p>
-
-## **上传记录**
-- 7.21
-
-
-PyTorch implementation of **Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation**. (CVPR 2024) [[Page](https://zpdu.github.io/DAINet_page/) | [Paper](https://arxiv.org/abs/2312.01220)]
-
-![overview](./assets/overview.png)
-
-
-
-## 🔨 To-Do List
-
-1. - [x] release the code regarding the proposed model and losses.
-3. - [x] release the evaluation code, and the pretrained models.
-
-3. - [x] release the training code.
-
 ## :rocket: Installation
 
 Begin by cloning the repository and setting up the environment:
@@ -81,8 +52,8 @@ Begin by cloning the repository and setting up the environment:
 git clone https://github.com/ZPDu/DAI-Net.git
 cd DAI-Net
 
-conda create -y -n dainet python=3.7
-conda activate dainet
+conda create -y -n dyan python=3.7
+conda activate dyan
 
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 
